@@ -60,7 +60,7 @@ jobs:
         with:
           platforms: linux/amd64
           context: scripts/
-          tags: tindy2013/subconverter:${{steps.version.outputs.result}}
+          tags: ihainan/subconverter:${{steps.version.outputs.result}}
           outputs: type=image,push=true
 
       - name: Save digest
